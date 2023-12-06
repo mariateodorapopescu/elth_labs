@@ -1,0 +1,19 @@
+TEMA 1
+* .dc V1 val_in val_fin pas
+* print .dc I(R1)
+* 9.0E+01 = 9*10^1=90
+V1 0 1 100
+V2 0 4 50
+V3 4 3 30
+I1 1 5 6
+R1 1 2 25
+R2 5 0 12
+R3 2 3 20
+R4 2 0 10
+R5 4 5 10
+.op
+.dc V1 100 100 1
+.print dc I(R1) I(R2) I(R3) I(R4) I(R5) V(I1)
+.end 
+
+

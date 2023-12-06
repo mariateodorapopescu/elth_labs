@@ -1,0 +1,113 @@
+
+**** 03/17/22 11:03:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ TEMA 3
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+V1 3 4 90
+V2 5 4 90
+V3 1 4 50
+I1 2 1 5
+R1 3 0 10
+R2 1 0 5
+R3 5 0 10
+R4 2 3 30
+R5 2 4 10
+.op
+.dc V3 50 50 1
+.print dc I(R1) I(R2) I(R3) I(R4) I(R5) V(I1) I(V3)
+.end
+
+**** 03/17/22 11:03:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ TEMA 3
+
+
+ ****     DC TRANSFER CURVES               TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  V3          I(R1)       I(R2)       I(R3)       I(R4)       I(R5)       
+
+   5.000E+01   2.000E+00  -4.000E+00   2.000E+00  -3.500E+00  -1.500E+00
+
+
+
+**** 03/17/22 11:03:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ TEMA 3
+
+
+ ****     DC TRANSFER CURVES               TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  V3          V(I1)       I(V3)       
+
+   5.000E+01  -6.500E+01   9.000E+00
+
+
+
+**** 03/17/22 11:03:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ TEMA 3
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)  -20.0000  (    2)  -85.0000  (    3)   20.0000  (    4)  -70.0000      
+
+(    5)   20.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1          -5.500E+00
+    V2          -2.000E+00
+    V3           9.000E+00
+
+    TOTAL POWER DISSIPATION   2.25E+02  WATTS
+
+
+**** 03/17/22 11:03:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ TEMA 3
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

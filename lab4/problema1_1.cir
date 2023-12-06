@@ -1,0 +1,14 @@
+PROBLEMA 1.1
+V1 3 4 AC 20 -45
+V2 3 2 AC 60 45
+R 2 1 10
+L1 4 0 31.83m
+L2 1 0 95.49m
+C 3 0 159.15u
+.AC LIN 1 50 50
+.PRINT AC I(V1) IP(V1) I(V2) IP(V2) I(R) IP(R) I(L1) IP(L1) I(L2) IP(L2) I(C) IP(C)
+.END
+
+; p este phase
+; .PROBE -> pentru editor grafic
+

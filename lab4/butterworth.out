@@ -1,0 +1,57 @@
+
+**** 04/14/22 08:23:18 *********** Evaluation PSpice (Nov 1999) **************
+
+ Filtru trece-banda
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+*de tip Butterworth
+Vin 1 0 ac 1
+l12 1 2 100u
+c23 2 3 2u
+c30 3 0 50u
+l30 3 0 4u
+r30 3 0 1
+.ac dec 1000 5k 25k
+.probe
+.end
+
+**** 04/14/22 08:23:18 *********** Evaluation PSpice (Nov 1999) **************
+
+ Filtru trece-banda
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  (    3)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .05
+

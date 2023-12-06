@@ -1,0 +1,11 @@
+Filtru trece-banda
+*de tip Butterworth
+Vin 1 0 ac 1
+l12 1 2 100u
+c23 2 3 2u
+c30 3 0 50u
+l30 3 0 4u
+r30 3 0 1
+.ac dec 1000 5k 25k
+.probe
+.end

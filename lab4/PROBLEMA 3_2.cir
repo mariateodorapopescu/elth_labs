@@ -1,0 +1,7 @@
+PROBLEMA 3.2
+Vin 1 0 AC 1
+R 2 0 10k
+C 1 2 10nF
+.ac dec 10 1hz 1meghz
+.probe
+.end

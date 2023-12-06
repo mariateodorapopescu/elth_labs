@@ -1,0 +1,10 @@
+Filtru opree-banda
+Vin 1 0 AC 1
+R12 1 2 10
+R23 2 3 0.5
+C34 3 4 26.5U
+L40 4 0 265M
+R20 2 0 10
+.ac OCT 100 40 80
+.probe
+.end

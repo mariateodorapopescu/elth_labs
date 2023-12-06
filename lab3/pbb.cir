@@ -1,0 +1,20 @@
+EXERCITIUL_B
+*
+R1 0 1 5
+R3 1 2 4
+R4 3 5 3
+R5 6 4 2
+*
+V1 6 0 78
+I2 6 1 6 
+E3 3 2 1 6 0.5
+F5 4 3 VCOM 0.5
+VCOM 5 6 0
+*
+.dc V1 78 78 1
+.print dc I(R1) I(R3) I(R4) I(R5)
+.op
+*
+.end
+
+
